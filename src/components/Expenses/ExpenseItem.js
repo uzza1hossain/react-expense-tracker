@@ -9,8 +9,13 @@ const ExpenseItem = (props) => {
 
 
     const clickHandler = () => {
-        const titles = ["I am updated", "I am not updated", "I am updated 2nd", "I am not updated 2nd"]
         setTitle("I am updated");
+        // if (title === "Toilet Paper") {
+        //     setTitle("I am updated from if")
+        // } else {
+        //     setTitle("I am updated");
+        // }
+        
         console.log(title);
     };
 
